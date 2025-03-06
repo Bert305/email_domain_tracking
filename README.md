@@ -1,5 +1,7 @@
 # email_domain_tracking Analysis Project
 
+Data Analysis Results after use of the coding script: <a href="https://docs.google.com/spreadsheets/d/1VGqVP-A7i1YW9ByNEyWnlwk27nU2anc9R34KzWIdgko/edit?gid=1609856685#gid=1609856685" target="_blank">Data Spreadsheet</a>.
+
 ## Email Domain Analysis Tool (app.py)
 
 ## Overview for app.py
