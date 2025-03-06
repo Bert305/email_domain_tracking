@@ -1,6 +1,8 @@
 # email_domain_tracking Analysis Project
 
-## Overview
+## Email Domain Analysis Tool (app.py)
+
+## Overview for app.py
 This Python-based tool efficiently analyzes email domains from a provided CSV file. It extracts domains, segregates them between business and personal categories, and calculates the occurrence and percentage of each domain type. This tool is essential for organizations looking to understand email traffic sources and enhance email management strategies.
 
 ## Features
@@ -39,3 +41,51 @@ This project is open-sourced under the MIT license.
 ---
 
 Feel free to adjust the content to better fit your project's specifics or let me know if you need additional sections or specific details included!
+
+
+
+
+Certainly! Here's a README description tailored for your GitHub project that focuses on listing email domains from a CSV file and counting their occurrences:
+
+---
+
+# Email Domain Counter (domain_output.py)
+
+## Overview for domain_output.py
+This Python script is designed to process a CSV file containing email addresses, extract the domain part of each email, count the frequency of each domain, and output the results. This simple yet effective tool can be invaluable for data analysis tasks where understanding email domain distribution is necessary.
+
+## Features
+- **Domain Extraction:** Extracts the domain part from each email address in the provided CSV file.
+- **Domain Count:** Calculates the frequency of each extracted domain to determine their distribution within the dataset.
+- **CSV Output:** Outputs the domain counts to a CSV file for easy analysis and sharing.
+- **Dual Output Mode:** Optionally, saves a copy of the original data with the extracted domains for further analysis.
+
+## How to Use
+1. **Prepare Your Data:** Ensure that your input CSV file is named `emails.csv` and contains a column of email addresses. This column should not have a specific header requirement as the script assumes only one column of emails.
+2. **Run the Script:** Execute the script in your Python environment. Ensure Pandas is installed:
+   ```bash
+   pip install pandas
+   ```
+3. **Check Outputs:**
+   - `email_domains_count.csv`: Contains each unique domain and its count.
+   - `emails_with_domains.csv` (optional): Contains the original emails along with their extracted domains.
+
+## Requirements
+- Python 3
+- Pandas library
+
+## Installation
+To set up your environment to run this script, install Pandas using pip:
+```bash
+pip install pandas
+```
+
+## Contributing
+Your contributions to enhance this script are welcome! Suggestions on improving domain extraction accuracy, handling different email formats, or optimizing performance would be particularly valuable. Feel free to fork this repository, make your changes, and submit a pull request.
+
+## License
+This project is open-sourced under the MIT license and is available for public use and modification.
+
+---
+
+This README provides a clear description of the project's purpose, usage, and output, ensuring that anyone visiting the repository can quickly understand and utilize the script. Let me know if you need further customizations or additional sections added!
